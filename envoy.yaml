@@ -26,15 +26,15 @@ static_resources:
               domains: ["*"]
               routes:
               - match:
-                  prefix: "/c"
+                  prefix: "/at"
                 route:
-                  prefix_rewrite: "/coffee"
-                  cluster: coffee_service
+                  prefix_rewrite: "/athena"
+                  cluster: athena_service
               - match:
-                  prefix: "/t"
+                  prefix: "/ar"
                 route:
-                  prefix_rewrite: "/tea"
-                  cluster: tea_service
+                  prefix_rewrite: "/ares"
+                  cluster: ares_service
           http_filters:
           - name: envoy.filters.http.router
   - name: listener_1
@@ -56,15 +56,15 @@ static_resources:
               domains: ["*"]
               routes:
               - match:
-                  prefix: "/c"
+                  prefix: "/at"
                 route:
-                  prefix_rewrite: "/coffee"
-                  cluster: secure_coffee_service
+                  prefix_rewrite: "/athena"
+                  cluster: secure_athena_service
               - match:
-                  prefix: "/t"
+                  prefix: "/ar"
                 route:
-                  prefix_rewrite: "/tea"
-                  cluster: tea_service
+                  prefix_rewrite: "/ares"
+                  cluster: ares_service
           http_filters:
           - name: envoy.filters.http.router
       tls_context:
@@ -75,53 +75,53 @@ static_resources:
               private_key:
                 filename: "/etc/ssl/certs/key.pem"
   clusters:
-  - name: coffee_service
+  - name: athena_service
     connect_timeout: 0.25s
     type: LOGICAL_DNS
     # Comment out the following line to test on v6 networks
     dns_lookup_family: V4_ONLY
     lb_policy: ROUND_ROBIN
     load_assignment:
-      cluster_name: coffee_service
+      cluster_name: athena_service
       endpoints:
       - lb_endpoints:
         - endpoint:
             address:
               socket_address:
-                address: coffeeapi
+                address: athenaapi
                 port_value: 80
-  - name: secure_coffee_service
+  - name: secure_athena_service
     connect_timeout: 0.25s
     type: LOGICAL_DNS
     # Comment out the following line to test on v6 networks
     dns_lookup_family: V4_ONLY
     lb_policy: ROUND_ROBIN
     load_assignment:
-      cluster_name: secure_coffee_service
+      cluster_name: secure_athena_service
       endpoints:
       - lb_endpoints:
         - endpoint:
             address:
               socket_address:
-                address: coffeeapi
+                address: athenaapi
                 port_value: 443
     transport_socket:
       name: envoy.transport_sockets.tls
       typed_config:
         "@type": type.googleapis.com/envoy.extensions.transport_sockets.tls.v3.UpstreamTlsContext
         sni: localhost            
-  - name: tea_service
+  - name: ares_service
     connect_timeout: 0.25s
     type: LOGICAL_DNS
     # Comment out the following line to test on v6 networks
     dns_lookup_family: V4_ONLY
     lb_policy: ROUND_ROBIN
     load_assignment:
-      cluster_name: tea_service
+      cluster_name: ares_service
       endpoints:
       - lb_endpoints:
         - endpoint:
             address:
               socket_address:
-                address: teaapi
+                address: aresapi
                 port_value: 80

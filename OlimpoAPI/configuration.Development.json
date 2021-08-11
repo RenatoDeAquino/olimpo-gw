@@ -1,0 +1,31 @@
+{
+    "ReRoutes": [
+      {
+        "DownstreamPathTemplate": "/{everything}",
+        "DownstreamScheme": "https",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5001
+          }
+        ],
+        "UpstreamPathTemplate": "/api1/{everything}",
+        "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ]
+      },
+      {
+        "DownstreamPathTemplate": "/{everything}",
+        "DownstreamScheme": "https",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 6001
+          }
+        ],
+        "UpstreamPathTemplate": "/api2/{everything}",
+        "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ]
+      }
+    ],
+  
+    "GlobalConfiguration": {
+    }
+  }

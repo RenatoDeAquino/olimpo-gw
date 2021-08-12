@@ -18,10 +18,10 @@ namespace OlimpoAPI.Handlers
             request.Headers.TryGetValues("POSTO", out var postoValues);
 
             var agenciaHeader = agenciaValues?.FirstOrDefault();
-            var contaHeader = agenciaValues?.FirstOrDefault();
-            var bancoHeader = agenciaValues?.FirstOrDefault();
-            var produtoHeader = agenciaValues?.FirstOrDefault();
-            var postoHeader = agenciaValues?.FirstOrDefault();
+            var contaHeader = contaValues?.FirstOrDefault();
+            var bancoHeader = bancoValues?.FirstOrDefault();
+            var produtoHeader = produtoValues?.FirstOrDefault();
+            var postoHeader = postoValues?.FirstOrDefault();
             
 
             if (agenciaHeader is null || contaHeader is null || bancoHeader is null || produtoHeader is null || postoHeader is null){

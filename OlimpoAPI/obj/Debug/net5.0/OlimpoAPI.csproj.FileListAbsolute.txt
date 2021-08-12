@@ -68,3 +68,15 @@
 /home/renato-bot/Documentos/github/olimpo-gw/OlimpoAPI/obj/Debug/net5.0/ref/OlimpoAPI.dll
 /home/renato-bot/Documentos/github/olimpo-gw/OlimpoAPI/obj/Debug/net5.0/OlimpoAPI.pdb
 /home/renato-bot/Documentos/github/olimpo-gw/OlimpoAPI/obj/Debug/net5.0/OlimpoAPI.genruntimeconfig.cache
+/home/w3-as/Documents/github/olimpo-gw/OlimpoAPI/bin/Debug/net5.0/Kros.Utils.dll
+/home/w3-as/Documents/github/olimpo-gw/OlimpoAPI/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/home/w3-as/Documents/github/olimpo-gw/OlimpoAPI/bin/Debug/net5.0/MMLib.SwaggerForOcelot.dll
+/home/w3-as/Documents/github/olimpo-gw/OlimpoAPI/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/w3-as/Documents/github/olimpo-gw/OlimpoAPI/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/w3-as/Documents/github/olimpo-gw/OlimpoAPI/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/w3-as/Documents/github/olimpo-gw/OlimpoAPI/bin/Debug/net5.0/System.Data.SqlClient.dll
+/home/w3-as/Documents/github/olimpo-gw/OlimpoAPI/bin/Debug/net5.0/runtimes/win-arm64/native/sni.dll
+/home/w3-as/Documents/github/olimpo-gw/OlimpoAPI/bin/Debug/net5.0/runtimes/win-x64/native/sni.dll
+/home/w3-as/Documents/github/olimpo-gw/OlimpoAPI/bin/Debug/net5.0/runtimes/win-x86/native/sni.dll
+/home/w3-as/Documents/github/olimpo-gw/OlimpoAPI/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/w3-as/Documents/github/olimpo-gw/OlimpoAPI/bin/Debug/net5.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll

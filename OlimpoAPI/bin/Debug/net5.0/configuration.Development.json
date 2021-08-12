@@ -2,11 +2,11 @@
     "Routes": [
       {
         "DownstreamPathTemplate": "/{everything}",
-        "DownstreamScheme": "https",
+        "DownstreamScheme": "http",
         "DownstreamHostAndPorts": [
           {
             "Host": "localhost",
-            "Port": 5001
+            "Port": 5000
           }
         ],
         "UpstreamPathTemplate": "/api1/{everything}",
@@ -14,16 +14,19 @@
       },
       {
         "DownstreamPathTemplate": "/{everything}",
-        "DownstreamScheme": "https",
+        "DownstreamScheme": "http",
         "DownstreamHostAndPorts": [
           {
             "Host": "localhost",
-            "Port": 6001
+            "Port": 6000
           }
         ],
         "UpstreamPathTemplate": "/api2/{everything}",
         "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ]
       }
+    ],
+    "DelegatingHandlers": [
+      "BlackListHandler"
     ],
   
     "GlobalConfiguration": {

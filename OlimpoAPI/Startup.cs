@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
+using OlimpoAPI.Handlers;
 
 namespace OlimpoAPI
 {
@@ -21,7 +22,9 @@ namespace OlimpoAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddOcelot(configuration);
+            services
+            .AddOcelot(configuration)
+            .AddDelegatingHandler<BlackListHandler>(true);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

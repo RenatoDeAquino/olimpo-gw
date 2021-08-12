@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "y/OjcVPAS3Yc6T4rGmi8NCTvUdlYooDDfgBzTyqVRNA3iz932AN054jgnX7iwG8hYpBYV3jGlE2Xog+gXCZrGQ==",
+  "dgSpecHash": "lsTcVwxAMt3l4wFqmQFfY2zk+kF6Zj9Ynvvit5l9w7k31ebAoRXFSfZKAF7LXTEbbrhMpww5rjOEtroqknLffQ==",
   "success": true,
-  "projectFilePath": "/home/w3-as/Documents/github/olimpo-gw/CoffeAPI/CoffeAPI.csproj",
+  "projectFilePath": "/home/renato-bot/Documentos/github/olimpo-gw/CoffeAPI/CoffeAPI.csproj",
   "expectedPackageFiles": [
-    "/home/w3-as/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "/home/w3-as/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
-    "/home/w3-as/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
-    "/home/w3-as/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
-    "/home/w3-as/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "/home/w3-as/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    "/home/renato-bot/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/renato-bot/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/renato-bot/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/home/renato-bot/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/home/renato-bot/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/home/renato-bot/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
   ],
   "logs": []
 }

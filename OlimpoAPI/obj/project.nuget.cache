@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "pf7oTSSWmAP2A7ma8iamU24UU/ROwwzB40KJnuyGDWaZlIr0YhMNM5YH2if1LF2zA2YznwTYpLH0mFOQVdGOmw==",
+  "dgSpecHash": "5tK0tlzvvM3BemIiLbQZdWj2AL29/ouCCM3w6bJqgpCqepWlr9eVrDynur60NJlGmuEqqyWhoyt9CVs1J3fzlQ==",
   "success": true,
-  "projectFilePath": "/home/w3-as/Documents/github/olimpo-gw/OlimpoAPI/OlimpoAPI.csproj",
+  "projectFilePath": "/home/renato-bot/Documentos/github/olimpo-gw/OlimpoAPI/OlimpoAPI.csproj",
   "expectedPackageFiles": [
-    "/home/w3-as/.nuget/packages/fluentvalidation/9.3.0/fluentvalidation.9.3.0.nupkg.sha512",
-    "/home/w3-as/.nuget/packages/microsoft.aspnetcore.jsonpatch/5.0.0/microsoft.aspnetcore.jsonpatch.5.0.0.nupkg.sha512",
-    "/home/w3-as/.nuget/packages/microsoft.aspnetcore.middlewareanalysis/5.0.0/microsoft.aspnetcore.middlewareanalysis.5.0.0.nupkg.sha512",
-    "/home/w3-as/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/5.0.0/microsoft.aspnetcore.mvc.newtonsoftjson.5.0.0.nupkg.sha512",
-    "/home/w3-as/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
-    "/home/w3-as/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
-    "/home/w3-as/.nuget/packages/microsoft.extensions.diagnosticadapter/3.1.10/microsoft.extensions.diagnosticadapter.3.1.10.nupkg.sha512",
-    "/home/w3-as/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
-    "/home/w3-as/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
-    "/home/w3-as/.nuget/packages/ocelot/17.0.0/ocelot.17.0.0.nupkg.sha512",
-    "/home/w3-as/.nuget/packages/system.diagnostics.diagnosticsource/4.7.1/system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    "/home/renato-bot/.nuget/packages/fluentvalidation/9.3.0/fluentvalidation.9.3.0.nupkg.sha512",
+    "/home/renato-bot/.nuget/packages/microsoft.aspnetcore.jsonpatch/5.0.0/microsoft.aspnetcore.jsonpatch.5.0.0.nupkg.sha512",
+    "/home/renato-bot/.nuget/packages/microsoft.aspnetcore.middlewareanalysis/5.0.0/microsoft.aspnetcore.middlewareanalysis.5.0.0.nupkg.sha512",
+    "/home/renato-bot/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/5.0.0/microsoft.aspnetcore.mvc.newtonsoftjson.5.0.0.nupkg.sha512",
+    "/home/renato-bot/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/home/renato-bot/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "/home/renato-bot/.nuget/packages/microsoft.extensions.diagnosticadapter/3.1.10/microsoft.extensions.diagnosticadapter.3.1.10.nupkg.sha512",
+    "/home/renato-bot/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
+    "/home/renato-bot/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "/home/renato-bot/.nuget/packages/ocelot/17.0.0/ocelot.17.0.0.nupkg.sha512",
+    "/home/renato-bot/.nuget/packages/system.diagnostics.diagnosticsource/4.7.1/system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }

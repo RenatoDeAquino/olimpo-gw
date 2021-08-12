@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/w3-as/Documents/github/olimpo-gw/CoffeAPI/CoffeAPI.csproj": {}
+    "/home/renato-bot/Documentos/github/olimpo-gw/CoffeAPI/CoffeAPI.csproj": {}
   },
   "projects": {
-    "/home/w3-as/Documents/github/olimpo-gw/CoffeAPI/CoffeAPI.csproj": {
+    "/home/renato-bot/Documentos/github/olimpo-gw/CoffeAPI/CoffeAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/w3-as/Documents/github/olimpo-gw/CoffeAPI/CoffeAPI.csproj",
+        "projectUniqueName": "/home/renato-bot/Documentos/github/olimpo-gw/CoffeAPI/CoffeAPI.csproj",
         "projectName": "CoffeAPI",
-        "projectPath": "/home/w3-as/Documents/github/olimpo-gw/CoffeAPI/CoffeAPI.csproj",
-        "packagesPath": "/home/w3-as/.nuget/packages/",
-        "outputPath": "/home/w3-as/Documents/github/olimpo-gw/CoffeAPI/obj/",
+        "projectPath": "/home/renato-bot/Documentos/github/olimpo-gw/CoffeAPI/CoffeAPI.csproj",
+        "packagesPath": "/home/renato-bot/.nuget/packages/",
+        "outputPath": "/home/renato-bot/Documentos/github/olimpo-gw/CoffeAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/w3-as/.nuget/NuGet/NuGet.Config"
+          "/home/renato-bot/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

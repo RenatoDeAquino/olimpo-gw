@@ -193,19 +193,19 @@
     ]
   },
   "packageFolders": {
-    "/home/renato-bot/.nuget/packages/": {}
+    "/home/w3-as/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/renato-bot/Documentos/github/olimpo-gw/TeaAPI/TeaAPI.csproj",
+      "projectUniqueName": "/home/w3-as/Documents/github/olimpo-gw/TeaAPI/TeaAPI.csproj",
       "projectName": "TeaAPI",
-      "projectPath": "/home/renato-bot/Documentos/github/olimpo-gw/TeaAPI/TeaAPI.csproj",
-      "packagesPath": "/home/renato-bot/.nuget/packages/",
-      "outputPath": "/home/renato-bot/Documentos/github/olimpo-gw/TeaAPI/obj/",
+      "projectPath": "/home/w3-as/Documents/github/olimpo-gw/TeaAPI/TeaAPI.csproj",
+      "packagesPath": "/home/w3-as/.nuget/packages/",
+      "outputPath": "/home/w3-as/Documents/github/olimpo-gw/TeaAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/renato-bot/.nuget/NuGet/NuGet.Config"
+        "/home/w3-as/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"

@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = OlimpoAPI
-build_property.ProjectDir = /home/renato-bot/Documentos/github/olimpo-gw/OlimpoAPI/
+build_property.ProjectDir = /home/w3-as/Documents/github/olimpo-gw/OlimpoAPI/

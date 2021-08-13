@@ -10,7 +10,8 @@
           }
         ],
         "UpstreamPathTemplate": "/api1/{everything}",
-        "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ]
+        "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+        "SwaggerKey":"CoffeeAPI"
       },
       {
         "DownstreamPathTemplate": "/{everything}",
@@ -22,11 +23,35 @@
           }
         ],
         "UpstreamPathTemplate": "/api2/{everything}",
-        "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ]
+        "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete"],
+        "SwaggerKey":"TeaAPI"
       }
     ],
     "DelegatingHandlers": [
-      "BlackListHandler"
+      "transacaoRequestHandler",
+      "transacaoRequestControlHandler"
+    ],
+    "SwaggerEndPoints":[
+      {
+        "Key": "CoffeeAPI",
+        "Config":[
+          {
+            "Name": "CoffeeAPI",
+            "Version": "v1",
+            "Url": "http://localhost:5000/swagger/v1/swagger.json"
+          }
+        ]
+      },
+      {
+        "Key":"TeaAPI",
+        "Config":[
+          {
+            "Name": "TeaAPI",
+            "Version": "v1",
+            "Url": "http://localhost:6000/swagger/v1/swagger.json"
+          }
+        ]
+      }
     ],
   
     "GlobalConfiguration": {

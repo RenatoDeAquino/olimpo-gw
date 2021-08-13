@@ -4,9 +4,9 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace OlimpoAPI.Handlers
+namespace OlimpoAPI.Handlers    
 {
-    public class BlackListHandler : DelegatingHandler
+    public class transacaoRequestHandler : DelegatingHandler
     {
         protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken){
             //banco agencia conta produto, posto
@@ -22,7 +22,6 @@ namespace OlimpoAPI.Handlers
             var bancoHeader = bancoValues?.FirstOrDefault();
             var produtoHeader = produtoValues?.FirstOrDefault();
             var postoHeader = postoValues?.FirstOrDefault();
-            
 
             if (agenciaHeader is null || contaHeader is null || bancoHeader is null || produtoHeader is null || postoHeader is null){
                 return ReturnBadRequest("Requisicao bloqueada por falta de informação");

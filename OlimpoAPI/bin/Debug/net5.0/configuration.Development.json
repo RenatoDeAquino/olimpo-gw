@@ -28,7 +28,8 @@
       }
     ],
     "DelegatingHandlers": [
-      "BlackListHandler"
+      "transacaoRequestHandler",
+      "transacaoRequestControlHandler"
     ],
     "SwaggerEndPoints":[
       {

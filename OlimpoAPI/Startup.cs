@@ -25,7 +25,8 @@ namespace OlimpoAPI
         {
             services
             .AddOcelot(configuration)
-            .AddDelegatingHandler<BlackListHandler>(true);
+            .AddDelegatingHandler<transacaoRequestHandler>(true)
+            .AddDelegatingHandler<transacaoRequestControlHandler>(true);
 
             services.AddSwaggerForOcelot(configuration);
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);

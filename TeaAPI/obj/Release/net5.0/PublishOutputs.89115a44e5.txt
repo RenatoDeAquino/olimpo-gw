@@ -1,0 +1,11 @@
+/home/w3-as/Documents/github/olimpo-gw/TeaAPI/bin/Release/net5.0/publish/TeaAPI
+/home/w3-as/Documents/github/olimpo-gw/TeaAPI/bin/Release/net5.0/publish/appsettings.Development.json
+/home/w3-as/Documents/github/olimpo-gw/TeaAPI/bin/Release/net5.0/publish/appsettings.json
+/home/w3-as/Documents/github/olimpo-gw/TeaAPI/bin/Release/net5.0/publish/TeaAPI.dll
+/home/w3-as/Documents/github/olimpo-gw/TeaAPI/bin/Release/net5.0/publish/TeaAPI.deps.json
+/home/w3-as/Documents/github/olimpo-gw/TeaAPI/bin/Release/net5.0/publish/TeaAPI.runtimeconfig.json
+/home/w3-as/Documents/github/olimpo-gw/TeaAPI/bin/Release/net5.0/publish/TeaAPI.pdb
+/home/w3-as/Documents/github/olimpo-gw/TeaAPI/bin/Release/net5.0/publish/Microsoft.OpenApi.dll
+/home/w3-as/Documents/github/olimpo-gw/TeaAPI/bin/Release/net5.0/publish/Swashbuckle.AspNetCore.Swagger.dll
+/home/w3-as/Documents/github/olimpo-gw/TeaAPI/bin/Release/net5.0/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/w3-as/Documents/github/olimpo-gw/TeaAPI/bin/Release/net5.0/publish/Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -1,0 +1,59 @@
+{
+    "Routes": [
+      {
+        "DownstreamPathTemplate": "/{everything}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5000
+          }
+        ],
+        "UpstreamPathTemplate": "/api1/{everything}",
+        "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+        "SwaggerKey":"CoffeeAPI"
+      },
+      {
+        "DownstreamPathTemplate": "/{everything}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 6000
+          }
+        ],
+        "UpstreamPathTemplate": "/api2/{everything}",
+        "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete"],
+        "SwaggerKey":"TeaAPI"
+      }
+    ],
+    "DelegatingHandlers": [
+      "transacaoRequestHandler",
+      "transacaoRequestControlHandler"
+    ],
+    "SwaggerEndPoints":[
+      {
+        "Key": "CoffeeAPI",
+        "Config":[
+          {
+            "Name": "CoffeeAPI",
+            "Version": "v1",
+            "Url": "http://localhost:5000/swagger/v1/swagger.json"
+          }
+        ]
+      },
+      {
+        "Key":"TeaAPI",
+        "Config":[
+          {
+            "Name": "TeaAPI",
+            "Version": "v1",
+            "Url": "http://localhost:6000/swagger/v1/swagger.json"
+          }
+        ]
+      }
+    ],
+  
+    "GlobalConfiguration": {
+    }
+  }

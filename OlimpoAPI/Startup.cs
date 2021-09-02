@@ -8,6 +8,7 @@ using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 using OlimpoAPI.Handlers;
 using Microsoft.AspNetCore.Mvc;
+using OlimpoAPI.Middleware;
 
 namespace OlimpoAPI
 {

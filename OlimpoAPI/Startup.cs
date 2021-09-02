@@ -52,6 +52,8 @@ namespace OlimpoAPI
 
             app.UseRouting();
 
+            app.UseMiddleware<RequestResponseLogMiddleware>();
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

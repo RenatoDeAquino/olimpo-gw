@@ -1,8 +1,10 @@
 pipeline {
-  agent { label "master" }
+  agent
   stages {
-    stage('Clean Workspace'){
-      echo 'Placeholder.'
+    stage ('Initialize') {
+      steps {
+        echo 'Placeholder.'
+      }
     }
   }
 }
